@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.table td, .table th {
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+}
+  
+.table th {
+    background-color: #04AA6D;
+    color: white;
+}  
